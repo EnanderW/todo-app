@@ -10,7 +10,7 @@ public class CommandManager {
         } else if (commandArgs.equals("stop")) {
 
         } else if (commandArgs.equals("create")) {
-
+            CreateTaskCommand.run(commandArgs);
         }
     }
 }
