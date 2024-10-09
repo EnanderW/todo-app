@@ -6,7 +6,7 @@ public class CommandManager {
         String[] commandArgs = input.split(" ");
 
         if (commandArgs.equals("help")) {
-
+            HelpCommand.run(commandArgs);
         } else if (commandArgs.equals("stop")) {
 
         } else if (commandArgs.equals("create")) {
