@@ -9,5 +9,9 @@ public class CreateTaskCommand {
 
         String title = commandArgs[1];
         String description = scanner.nextLine();
+
+        Task task = new Task();
+        task.title = title;
+        task.description = description;
     }
 }
