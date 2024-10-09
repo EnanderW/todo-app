@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class CreateTaskCommand {
 
     public static void run(String[] commandArgs) {
+        if (commandArgs.length != 2) {
+            return;
+        }
+
         Scanner scanner = new Scanner(System.in);
 
         String title = commandArgs[1];
